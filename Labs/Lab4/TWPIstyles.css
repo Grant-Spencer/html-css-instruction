@@ -4,8 +4,14 @@
     font-family:Arial;
 }
 h1, h2 { 
-    font-family:arial;
+    font-family:"Comic Sans MS", cursive;
 }
+
+h2[style*="italic"] {
+    font-style: normal !important;
+    text-shadow: 3px 3px gray;
+}
+
 
 header {
     font-size:48px;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: blue;
+        }
+        a:visited {
+        color: red;
+    }
+    a:hover {
+        color:black;
+        cursor:help;
+    }
+    a:active{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <a href="http://www.google.com" target="google" title="Click to go to Google">Go to Google</a>
+    <br>
+    <a href="javascript:alert('Click!');">Click Here</a>
+    
+    <div>
+        <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=40.55689999999999~-82.2894&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+        </iframe>
+        <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+           <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=40.55689999999999~-82.2894&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+           <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=40.55689999999999~-82.2894&amp;sty=r&amp;lvl=11&amp;rtp=~pos.40.55689999999999_-82.2894____&amp;FORM=MBEDLD">Get Directions</a>
+       </div>
+   </div>
+</body>
+</html>

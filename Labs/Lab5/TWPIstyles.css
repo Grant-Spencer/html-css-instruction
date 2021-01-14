@@ -1,6 +1,5 @@
 ﻿body { 
     font-size:18px;
-    color:blue;
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
@@ -9,22 +8,29 @@ h1, h2, h3, h4, h5, h6 {
     color:green !important;
 }  
 
+h2 { border-bottom-color: black;
+border-bottom-style: solid;
+border-width: 2px;}
+
 h2[style*="italic"] {
     font-style:normal !important;
 }
 
 
 header {
+    background-color: rgb(255,93,0);
+    color: white;
+    text-shadow: 3px 3px silver;
     font-size:48px;
     text-align:center;
     border:1px solid;
-    background-color:lightblue;
     padding:40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 nav a:hover {
     background-color:lightgray;
+    color: black;
 }
 
 nav a {
@@ -33,6 +39,8 @@ nav a {
     border-radius:5px 5px 0 0;
     margin-right:-5px;
     padding:5px;
+    color: white;
+    background-color: black;
 }
 
 xnav a.hover {
@@ -44,5 +52,9 @@ nav {
     border-bottom:1px solid;
     margin-top:10px;
     padding-bottom:5px;
+}
+
+aside {
+    background: linear-gradient(white 50px,rgb(255,93,0));
 }
 
